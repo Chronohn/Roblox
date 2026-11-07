@@ -16497,7 +16497,7 @@ do
             and type(EF.Queue)=="function" then
             local queued=pcall(EF.Queue, [[
                 if not game:IsLoaded() then game.Loaded:Wait() end
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/Chronohn/Roblox/refs/heads/main/LarpZero.lua"))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Chronohn/Roblox/refs/heads/main/LarpZero_Combined.lua"))()
             ]])
             if not queued and not Library.Unloaded then
                 Library:Notify("Could not queue automatic execution",4)
